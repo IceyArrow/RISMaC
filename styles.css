@@ -1,0 +1,228 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.logo{
+  width: 80px;
+  height: 60px;
+}
+
+header{
+  font-size: 16px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  position:fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  transition: top 1s;
+}
+
+.links{
+  display: flex;
+  flex-direction:row ;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 2s;
+}
+
+header div p a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+header div p{
+  margin: 13px 15px;
+  transition: all 5s;
+}
+
+header div p :hover{
+  cursor:pointer;
+  box-shadow: -1px 3px 3cap white ;
+  transition: all 0.5s;
+  background-color: rgb(250, 250, 250);
+  color: rgb(0, 0, 0);
+  opacity: 0.96;
+}
+
+#home{
+  display: flex;
+  flex-direction: column;
+  flex: 1fr;
+  padding: 125px 35px;
+  text-align: center;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+#reginow{
+  padding: 12px 12px;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  bottom: 45px;
+  left: 44%;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #000000;
+  text-decoration:none;
+  color: white;
+  font-size: 18px; 
+  font-weight: bold;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+#reginow:hover{
+  cursor:pointer;
+  box-shadow: -1px 3px 3cap rgb(0, 0, 0) ;
+  transition: all 0.5s;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  opacity: 0.96;
+  border: 4px solid black;
+  padding: 10px 10px;
+}
+
+#home h2, #details h2, #sponsors h2, #contact h2, #about h2,#register h2{
+  font-size: 80px;
+}
+
+#details p, #sponsors p, #contact p, #about p {
+  font-size:23px;
+}
+
+#home p{
+  font-size: 26px;
+}
+
+#details{
+  display: flex;
+  flex-direction: column;
+  flex: 1fr;
+  padding: 30px 35px;
+  text-align: center;
+  margin-top: 300px;
+  background-color: whitesmoke;
+  line-height: 50px;
+}
+
+#about{
+  display: flex;
+  flex-direction: column;
+  flex: 1fr;
+  padding: 30px 35px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+#sponsors{
+  display: flex;
+  flex-direction: column;
+  flex: 1fr;
+  padding: 30px 35px;
+  text-align: center;
+  margin-top: 40px;
+  background-color: whitesmoke;
+}
+
+#contact {
+  padding: 50px 20px;
+  background: whitesmoke;
+}
+
+#register {
+  padding: 50px 20px;
+  background: white;
+  
+}
+
+#contact form, #register form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact label, #register label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#contact input, #contact textarea, #register input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact button, #register button {
+  padding: 12px 12px;
+  width: 160px;
+  height: 50px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #000000;
+  text-decoration:none;
+  color: white;
+  font-size: 18px; 
+  font-weight: bold;
+  border-radius: 20px;
+  transition: all 0.5s;
+  margin-top: 10px;
+}
+
+#register button:hover {
+  cursor:pointer;
+  box-shadow: -1px 3px 3cap rgb(0, 0, 0) ;
+  transition: all 0.5s;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  opacity: 0.96;
+  border: 4px solid black;
+  padding: 10px 10px;
+}
+
+#contact button:hover{
+  cursor:pointer;
+  box-shadow: -1px 3px 3cap rgb(0, 0, 0) ;
+  transition: all 0.5s;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  opacity: 0.96;
+  border: 4px solid black;
+  padding: 10px 10px;
+}
+
+#info{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  row-gap: 20px;
+  column-gap: 50px;
+  margin-top: 50px;
+  position: relative;
+  text-align: justify;
+}
+#info h3{
+  text-align: center;
+  font-size: 30px;
+}
+
+
+#oa{
+  display:inline-block;
+  vertical-align: middle;
+  position: absolute;
+  bottom: -304px;
+  width: 600px;
+  left: 400px;
+}
